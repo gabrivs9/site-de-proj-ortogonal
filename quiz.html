@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz | Projeções Ortogonais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="projecoes.html">Projeções</a>
+        <a href="formulas.html">Fórmulas</a>
+        <a href="cotidiano.html">Cotidiano</a>
+        <a href="quiz.html" class="ativo">Quiz</a>
+    </nav>
+    <header>
+        <h1>Quiz</h1>
+        <div class="destaque-inicio">
+            <img src="Imagens/pagina5.png" alt="Quiz sobre projeção ortogonal">
+            <div class="texto-destaque">
+                <p>Teste seus conhecimentos! São 10 perguntas sobre projeção ortogonal. Escolha uma alternativa e veja a explicação em seguida.</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Teste seus conhecimentos</h2>
+            <div id="quiz-container">
+                <p id="progresso"></p>
+                <h3 id="pergunta"></h3>
+                <div id="alternativas"></div>
+                <p id="feedback"></p>
+                <button id="proxima" onclick="proximaPergunta()">Próxima pergunta</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Projeto - Projeções Ortogonais</p>
+        <p>Colégio São Luiz - unidade 3 - alunos do 3º ano do Ensino Médio</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
